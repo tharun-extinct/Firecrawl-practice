@@ -27,55 +27,64 @@ items = []
 pages = range(1, 6)  # Pages 1 to 5
 
 
-url = "https://www.amazon.in/gp/new-releases/?ref_=nav_em_cs_newreleases_0_1_1_3"
-print(f"Scraping page...")
 
-# Scrape page content
-page_content = app.scrape_url(
-    url=url,
-    params={
-        "pageOptions": {
-            "onlyMainContent": True
-        }
-    }
-)
+# Scrape multiple pages with progress reporting and error handling
+for page in pages:
+    url = f"https://www.python-unlimited.com/webscraping/hotels.php?page={page}"
+    print(f"Scraping page {page}...")
+    try:
+        # Scrape page content
+        page_content = app.scrape_url(
+            url=url,
+            params={
+                "pageOptions": {
+                    "onlyMainContent": True
+                }
+            }
+        )
 
-# Build user prompt
-user_prompt = f"""
+        # Build user prompt
+        user_prompt = f"""
 The extracted webpage: {page_content}
 The fields you return: {fields}
 """
 
-# Extract structured data via OpenAI
-response = client.chat.completions.create(
-    model="gpt-4o",
-    temperature=0,
-    messages=[
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt}
-    ]
-)
+        # Extract structured data via OpenAI
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            temperature=0,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+        )
 
-# Try to extract the content from the response safely
-try:
-    # For OpenAI Python SDK v1.x, response.choices[0].message.content is correct
-    content = response.choices[0].message.content
-    data = json.loads(content)
-except Exception as e:
-    print(f"Error extracting or parsing OpenAI response: {e}")
-    data = []
+        # Only handle streaming response
+        content = ""
+        for chunk in response:
+            delta_content = getattr(getattr(chunk.choices[0], 'delta', None), 'content', None)
+            if delta_content:
+                content += delta_content
+        if content:
+            data = json.loads(content)
+        else:
+            print(f"[DEBUG] No content received from streaming response on page {page}.")
+            data = []
 
-# Normalize structure if wrapped in a dict
-if isinstance(data, dict):
-    keys = list(data.keys())
-    if len(keys) == 1 and isinstance(data[keys[0]], list):
-        data = data[keys[0]]
+        # Normalize structure if wrapped in a dict
+        if isinstance(data, dict):
+            keys = list(data.keys())
+            if len(keys) == 1 and isinstance(data[keys[0]], list):
+                data = data[keys[0]]
 
-# Add to item list
-if isinstance(data, list):
-    items.extend(data)
-elif isinstance(data, dict):
-    items.append(data)
+        # Add to item list
+        if isinstance(data, list):
+            items.extend(data)
+        elif isinstance(data, dict):
+            items.append(data)
+        print(f"✅ Page {page} scraped. {len(items)} total records so far.")
+    except Exception as e:
+        print(f"❌ Error scraping page {page}: {e}")
 
 # Save to Excel and CSV
 df = pd.DataFrame(items)
