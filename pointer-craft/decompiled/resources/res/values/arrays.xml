@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="horizontal_position_options">
+        <item>Left</item>
+        <item>Right</item>
+    </array>
+    <array name="horizontal_position_values">
+        <item>left</item>
+        <item>right</item>
+    </array>
+    <array name="input_bar_options">
+        <item>When keyboard is active</item>
+        <item>Always</item>
+        <item>Never</item>
+    </array>
+    <array name="input_bar_values">
+        <item>when_active</item>
+        <item>always</item>
+        <item>never</item>
+    </array>
+    <array name="keyboard_codes">
+        <item>ar</item>
+        <item>az</item>
+        <item>be</item>
+        <item>br</item>
+        <item>bu</item>
+        <item>cr</item>
+        <item>cz</item>
+        <item>da</item>
+        <item>uk</item>
+        <item>us</item>
+        <item>ec</item>
+        <item>ed</item>
+        <item>ei</item>
+        <item>ew</item>
+        <item>es</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>ca</item>
+        <item>de</item>
+        <item>gr</item>
+        <item>he</item>
+        <item>hu</item>
+        <item>ic</item>
+        <item>it</item>
+        <item>la</item>
+        <item>li</item>
+        <item>no</item>
+        <item>pe</item>
+        <item>po</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>rm</item>
+        <item>sl</item>
+        <item>sp</item>
+        <item>sl</item>
+        <item>sw</item>
+        <item>sf</item>
+        <item>sg</item>
+        <item>tu</item>
+        <item>uk</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>vi</item>
+    </array>
+    <array name="keyboard_languages">
+        <item>Arabic</item>
+        <item>Azerbaijani</item>
+        <item>Belgian</item>
+        <item>Brazilian</item>
+        <item>Bulgarian</item>
+        <item>Croatian and Slovenian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>English UK</item>
+        <item>English US</item>
+        <item>English US Colemak</item>
+        <item>English US Dvorak</item>
+        <item>English US Intl</item>
+        <item>English US Workman</item>
+        <item>Estonian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>French CA</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Italian</item>
+        <item>Latvian QWERTY</item>
+        <item>Lithuanian</item>
+        <item>Norwegian</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Russian MAC</item>
+        <item>Slovak</item>
+        <item>Spanish</item>
+        <item>Spanish Latin</item>
+        <item>Swedish</item>
+        <item>Swiss French</item>
+        <item>Swiss German</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Korean</item>
+        <item>Thai Kedmanee</item>
+        <item>Vietnamese</item>
+    </array>
+    <array name="keyboard_values">
+        <item>arabic</item>
+        <item>azerbaijani</item>
+        <item>belgian</item>
+        <item>brazilian</item>
+        <item>bulgarian</item>
+        <item>croatian_and_slovenian</item>
+        <item>czech</item>
+        <item>danish</item>
+        <item>english_uk</item>
+        <item>english_us</item>
+        <item>english_us_colemak</item>
+        <item>english_us_dvorak</item>
+        <item>english_us_intl</item>
+        <item>english_us_workman</item>
+        <item>estonian</item>
+        <item>finnish</item>
+        <item>french</item>
+        <item>french_ca</item>
+        <item>german</item>
+        <item>greek</item>
+        <item>hebrew</item>
+        <item>hungarian</item>
+        <item>icelandic</item>
+        <item>italian</item>
+        <item>latvian_qwerty</item>
+        <item>lithuanian</item>
+        <item>norwegian</item>
+        <item>persian</item>
+        <item>polish</item>
+        <item>portuguese</item>
+        <item>russian</item>
+        <item>russian_mac</item>
+        <item>slovak</item>
+        <item>spanish</item>
+        <item>spanish_latin</item>
+        <item>swedish</item>
+        <item>swiss_french</item>
+        <item>swiss_german</item>
+        <item>turkish</item>
+        <item>ukrainian</item>
+        <item>korean</item>
+        <item>thai_kedmanee</item>
+        <item>vietnamese</item>
+    </array>
+    <array name="keyboard_values_default">
+        <item>english_us</item>
+    </array>
+    <array name="mouse_buttons_default">
+        <item>left</item>
+        <item>right</item>
+    </array>
+    <array name="mouse_buttons_options">
+        <item>Left</item>
+        <item>Middle</item>
+        <item>Right</item>
+    </array>
+    <array name="mouse_buttons_values">
+        <item>left</item>
+        <item>middle</item>
+        <item>right</item>
+    </array>
+    <array name="mouse_jiggle_mode_options">
+        <item>Off</item>
+        <item>Only when screen is on</item>
+        <item>Always, even in background (check battery optimization if not working)</item>
+    </array>
+    <array name="mouse_jiggle_mode_values">
+        <item>disabled</item>
+        <item>screen_on</item>
+        <item>screen_off</item>
+    </array>
+    <array name="show_mouse_buttons_default">
+        <item>bottom</item>
+    </array>
+    <array name="show_scroll_bar_default">
+        <item>right</item>
+    </array>
+    <array name="theme_color_name">
+        <item>Default</item>
+        <item>Red</item>
+        <item>Purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>BlueGrey</item>
+        <item>Dynamic</item>
+    </array>
+    <array name="theme_color_styles">
+        <item>0</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Red</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Purple</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Indigo</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Blue</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Green</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Yellow</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Orange</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Brown</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.Grey</item>
+        <item>@style/ThemeOverlay.PrimaryPalette.BlueGrey</item>
+    </array>
+    <array name="theme_color_values">
+        <item>default</item>
+        <item>red</item>
+        <item>purple</item>
+        <item>indigo</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>yellow</item>
+        <item>orange</item>
+        <item>brown</item>
+        <item>grey</item>
+        <item>blue_grey</item>
+        <item>dynamic</item>
+    </array>
+    <array name="theme_option_names">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Black</item>
+        <item>System default</item>
+    </array>
+    <array name="theme_option_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>black</item>
+        <item>system</item>
+    </array>
+    <array name="vertical_position_options">
+        <item>Top</item>
+        <item>Bottom</item>
+    </array>
+    <array name="vertical_position_values">
+        <item>top</item>
+        <item>bottom</item>
+    </array>
+    <array name="volume_button_keys">
+        <item>None (system volume)</item>
+        <item>Volume up</item>
+        <item>Volume down</item>
+        <item>Left mouse button</item>
+        <item>Right mouse button</item>
+        <item>Page up</item>
+        <item>Page down</item>
+    </array>
+    <array name="volume_button_values">
+        <item>system</item>
+        <item>vol_up</item>
+        <item>vol_down</item>
+        <item>mouse_left</item>
+        <item>mouse_right</item>
+        <item>page_up</item>
+        <item>page_down</item>
+    </array>
+</resources>

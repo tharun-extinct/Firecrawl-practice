@@ -1,0 +1,50 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class kj4 {
+    public static final mj4 g = new mj4("ContentDescription", true, new od4(5));
+    public static final mj4 y = new mj4("StateDescription", 0);
+    public static final mj4 r = new mj4("ProgressBarRangeInfo", 0);
+    public static final mj4 n = new mj4("PaneTitle", true, new od4(14));
+    public static final mj4 v = new mj4("SelectableGroup", 0);
+    public static final mj4 x = new mj4("CollectionInfo", 0);
+    public static final mj4 l = new mj4("CollectionItemInfo", 0);
+    public static final mj4 j = new mj4("Heading", 0);
+    public static final mj4 t = new mj4("TextEntryKey", 0);
+    public static final mj4 a = new mj4("Disabled", 0);
+    public static final mj4 m = new mj4("LiveRegion", 0);
+    public static final mj4 q = new mj4("Focused", 0);
+    public static final mj4 w = new mj4("IsContainer", 0);
+    public static final mj4 c = new mj4("IsTraversalGroup");
+    public static final mj4 i = new mj4("IsSensitiveData");
+    public static final mj4 b = new mj4("InvisibleToUser", new od4(11));
+    public static final mj4 s = new mj4("HideFromAccessibility", new od4(11));
+    public static final mj4 p = new mj4("ContentType", new od4(15));
+    public static final mj4 u = new mj4("ContentDataType", new od4(16));
+    public static final mj4 z = new mj4("FillableData", new od4(17));
+    public static final mj4 h = new mj4("TraversalIndex", new od4(6));
+    public static final mj4 o = new mj4("HorizontalScrollAxisRange", 0);
+    public static final mj4 f = new mj4("VerticalScrollAxisRange", 0);
+    public static final mj4 k = new mj4("IsPopup", true, new od4(7));
+    public static final mj4 d = new mj4("IsDialog", true, new od4(8));
+    public static final mj4 e = new mj4("Role", true, new od4(9));
+    public static final mj4 A = new mj4("TestTag", false, new od4(10));
+    public static final mj4 B = new mj4("LinkTestMarker", false, new od4(11));
+    public static final mj4 C = new mj4("Text", true, new od4(12));
+    public static final mj4 D = new mj4("TextSubstitution");
+    public static final mj4 E = new mj4("IsShowingTextSubstitution");
+    public static final mj4 F = new mj4("InputText", 0);
+    public static final mj4 G = new mj4("EditableText", 0);
+    public static final mj4 H = new mj4("TextSelectionRange", 0);
+    public static final mj4 I = new mj4("TextCompositionRange", 0);
+    public static final mj4 J = new mj4("ImeAction", 0);
+    public static final mj4 K = new mj4("Selected", 0);
+    public static final mj4 L = new mj4("ToggleableState", 0);
+    public static final mj4 M = new mj4("InputTextSuggestionState", 0);
+    public static final mj4 N = new mj4("Password", 0);
+    public static final mj4 O = new mj4("Error", 0);
+    public static final mj4 P = new mj4("IndexForKey");
+    public static final mj4 Q = new mj4("IsEditable");
+    public static final mj4 R = new mj4("MaxTextLength");
+    public static final mj4 S = new mj4("Shape", false, new od4(13));
+}

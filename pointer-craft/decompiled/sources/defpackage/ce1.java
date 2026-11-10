@@ -1,0 +1,11 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class ce1 extends i73 implements wd1 {
+    public xy1 o;
+
+    @Override // defpackage.wd1
+    public final void R(wm2 wm2Var) {
+        this.o.a(wm2Var);
+    }
+}

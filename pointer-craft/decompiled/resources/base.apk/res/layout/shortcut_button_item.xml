@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shortcut_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    app:autoSizeMaxTextSize="16sp"
+    app:autoSizeMinTextSize="10sp"
+    app:autoSizeTextType="uniform"
+    app:layout_flexGrow="1"
+    style="?attr/buttonStyleDefaultButton"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:minHeight="48dp">
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flex_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:dividerDrawable="@drawable/flexbox_divider"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:showDividerVertical="middle"/>
+</com.google.android.material.card.MaterialCardView>

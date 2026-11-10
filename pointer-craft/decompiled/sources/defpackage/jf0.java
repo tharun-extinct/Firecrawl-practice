@@ -1,0 +1,157 @@
+package defpackage;
+
+import java.util.LinkedHashMap;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class jf0 {
+    public static final jf0 a;
+    public static final jf0 b;
+    public static final jf0 c;
+    public static final jf0 i;
+    public static final jf0 j;
+    public static final jf0 l;
+    public static final jf0 m;
+    public static final jf0 p;
+    public static final jf0 q;
+    public static final jf0 s;
+    public static final jf0 t;
+    public static final jf0 u;
+    public static final jf0 v;
+    public static final jf0 w;
+    public static final jf0 x;
+    public static final jf0 z;
+    public final String g;
+    public static final aj6 y = new aj6(15);
+    public static final fu1 r = new fu1(6);
+    public static final LinkedHashMap n = new LinkedHashMap();
+
+    static {
+        aj6.h("SSL_RSA_WITH_NULL_MD5");
+        aj6.h("SSL_RSA_WITH_NULL_SHA");
+        aj6.h("SSL_RSA_EXPORT_WITH_RC4_40_MD5");
+        aj6.h("SSL_RSA_WITH_RC4_128_MD5");
+        aj6.h("SSL_RSA_WITH_RC4_128_SHA");
+        aj6.h("SSL_RSA_EXPORT_WITH_DES40_CBC_SHA");
+        aj6.h("SSL_RSA_WITH_DES_CBC_SHA");
+        v = aj6.h("SSL_RSA_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA");
+        aj6.h("SSL_DHE_DSS_WITH_DES_CBC_SHA");
+        aj6.h("SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA");
+        aj6.h("SSL_DHE_RSA_WITH_DES_CBC_SHA");
+        aj6.h("SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("SSL_DH_anon_EXPORT_WITH_RC4_40_MD5");
+        aj6.h("SSL_DH_anon_WITH_RC4_128_MD5");
+        aj6.h("SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA");
+        aj6.h("SSL_DH_anon_WITH_DES_CBC_SHA");
+        aj6.h("SSL_DH_anon_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("TLS_KRB5_WITH_DES_CBC_SHA");
+        aj6.h("TLS_KRB5_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("TLS_KRB5_WITH_RC4_128_SHA");
+        aj6.h("TLS_KRB5_WITH_DES_CBC_MD5");
+        aj6.h("TLS_KRB5_WITH_3DES_EDE_CBC_MD5");
+        aj6.h("TLS_KRB5_WITH_RC4_128_MD5");
+        aj6.h("TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA");
+        aj6.h("TLS_KRB5_EXPORT_WITH_RC4_40_SHA");
+        aj6.h("TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5");
+        aj6.h("TLS_KRB5_EXPORT_WITH_RC4_40_MD5");
+        x = aj6.h("TLS_RSA_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_DHE_DSS_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_DHE_RSA_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_DH_anon_WITH_AES_128_CBC_SHA");
+        l = aj6.h("TLS_RSA_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_DHE_DSS_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_DHE_RSA_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_DH_anon_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_RSA_WITH_NULL_SHA256");
+        aj6.h("TLS_RSA_WITH_AES_128_CBC_SHA256");
+        aj6.h("TLS_RSA_WITH_AES_256_CBC_SHA256");
+        aj6.h("TLS_DHE_DSS_WITH_AES_128_CBC_SHA256");
+        aj6.h("TLS_RSA_WITH_CAMELLIA_128_CBC_SHA");
+        aj6.h("TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA");
+        aj6.h("TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA");
+        aj6.h("TLS_DHE_RSA_WITH_AES_128_CBC_SHA256");
+        aj6.h("TLS_DHE_DSS_WITH_AES_256_CBC_SHA256");
+        aj6.h("TLS_DHE_RSA_WITH_AES_256_CBC_SHA256");
+        aj6.h("TLS_DH_anon_WITH_AES_128_CBC_SHA256");
+        aj6.h("TLS_DH_anon_WITH_AES_256_CBC_SHA256");
+        aj6.h("TLS_RSA_WITH_CAMELLIA_256_CBC_SHA");
+        aj6.h("TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA");
+        aj6.h("TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA");
+        aj6.h("TLS_PSK_WITH_RC4_128_SHA");
+        aj6.h("TLS_PSK_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("TLS_PSK_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_PSK_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_RSA_WITH_SEED_CBC_SHA");
+        j = aj6.h("TLS_RSA_WITH_AES_128_GCM_SHA256");
+        t = aj6.h("TLS_RSA_WITH_AES_256_GCM_SHA384");
+        aj6.h("TLS_DHE_RSA_WITH_AES_128_GCM_SHA256");
+        aj6.h("TLS_DHE_RSA_WITH_AES_256_GCM_SHA384");
+        aj6.h("TLS_DHE_DSS_WITH_AES_128_GCM_SHA256");
+        aj6.h("TLS_DHE_DSS_WITH_AES_256_GCM_SHA384");
+        aj6.h("TLS_DH_anon_WITH_AES_128_GCM_SHA256");
+        aj6.h("TLS_DH_anon_WITH_AES_256_GCM_SHA384");
+        aj6.h("TLS_EMPTY_RENEGOTIATION_INFO_SCSV");
+        aj6.h("TLS_FALLBACK_SCSV");
+        aj6.h("TLS_ECDH_ECDSA_WITH_NULL_SHA");
+        aj6.h("TLS_ECDH_ECDSA_WITH_RC4_128_SHA");
+        aj6.h("TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_ECDHE_ECDSA_WITH_NULL_SHA");
+        aj6.h("TLS_ECDHE_ECDSA_WITH_RC4_128_SHA");
+        aj6.h("TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_ECDH_RSA_WITH_NULL_SHA");
+        aj6.h("TLS_ECDH_RSA_WITH_RC4_128_SHA");
+        aj6.h("TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_ECDHE_RSA_WITH_NULL_SHA");
+        aj6.h("TLS_ECDHE_RSA_WITH_RC4_128_SHA");
+        aj6.h("TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA");
+        a = aj6.h("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA");
+        m = aj6.h("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_ECDH_anon_WITH_NULL_SHA");
+        aj6.h("TLS_ECDH_anon_WITH_RC4_128_SHA");
+        aj6.h("TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA");
+        aj6.h("TLS_ECDH_anon_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_ECDH_anon_WITH_AES_256_CBC_SHA");
+        aj6.h("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256");
+        aj6.h("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384");
+        aj6.h("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256");
+        aj6.h("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384");
+        aj6.h("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256");
+        aj6.h("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384");
+        aj6.h("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256");
+        aj6.h("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384");
+        q = aj6.h("TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256");
+        w = aj6.h("TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384");
+        aj6.h("TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256");
+        aj6.h("TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384");
+        c = aj6.h("TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256");
+        i = aj6.h("TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384");
+        aj6.h("TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256");
+        aj6.h("TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384");
+        aj6.h("TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA");
+        aj6.h("TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA");
+        b = aj6.h("TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256");
+        s = aj6.h("TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256");
+        aj6.h("TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256");
+        aj6.h("TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256");
+        p = aj6.h("TLS_AES_128_GCM_SHA256");
+        u = aj6.h("TLS_AES_256_GCM_SHA384");
+        z = aj6.h("TLS_CHACHA20_POLY1305_SHA256");
+        aj6.h("TLS_AES_128_CCM_SHA256");
+        aj6.h("TLS_AES_128_CCM_8_SHA256");
+    }
+
+    public jf0(String str) {
+        this.g = str;
+    }
+
+    public final String toString() {
+        return this.g;
+    }
+}
