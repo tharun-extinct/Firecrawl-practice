@@ -95,7 +95,7 @@ Get-ChildItem .\references\acrobat\decompiled-split -Recurse -File -ErrorAction 
 A large usable output already exists; I’m now continuing from the missing dex files classes5 through classes9 to make the decompilation more complete.
 
 Ran terminal command: 
-
+```
 $ErrorActionPreference='Stop'
 $work = 'X:\AI_and_Automation\Firecrawl-practice\references\acrobat\dex-work'
 $outRoot = 'X:\AI_and_Automation\Firecrawl-practice\references\acrobat\decompiled-split'
@@ -113,11 +113,15 @@ foreach ($name in $targets) {
 }
 Write-Host 'Finished classes5-classes9 pass.'
 
+```
 
-
-Ran terminal command: Get-ChildItem .\references\acrobat\decompiled-split\classes6 -Recurse -File -Filter *.java -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count; Get-ChildItem .\references\acrobat\decompiled-split\classes7 -Recurse -File -Filter *.java -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count; Get-ChildItem .\references\acrobat\decompiled-split\classes8 -Recurse -File -Filter *.java -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count; Get-ChildItem .\references\acrobat\decompiled-split\classes9 -Recurse -File -Filter *.java -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count
-
-
+Ran terminal command: 
+```
+Get-ChildItem .\references\acrobat\decompiled-split\classes6 -Recurse -File -Filter *.java -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count; 
+Get-ChildItem .\references\acrobat\decompiled-split\classes7 -Recurse -File -Filter *.java -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count; 
+Get-ChildItem .\references\acrobat\decompiled-split\classes8 -Recurse -File -Filter *.java -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count; 
+Get-ChildItem .\references\acrobat\decompiled-split\classes9 -Recurse -File -Filter *.java -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count
+```
 
 I verified only classes5 was attempted and it produced no files; I’ll now run classes5 individually and capture a clear success/failure result before proceeding further.
 
