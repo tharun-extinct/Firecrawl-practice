@@ -1,0 +1,10 @@
+references/acrobat/Adobe Acrobat_26.8.3.49043.apk
+references/Moonreader/Moon+ Reader_10.8.apks
+
+apk/
+**.apk
+**.apks
+
+**.log
+
+**/decompiled/
